@@ -12,11 +12,4 @@ echo " the mul is : $mul "
 echo " the div is : $div "
 echo " the mod is : $mod "
  
-#!/bin/bash
-echo "enter a "
-read a
-echo "enter b"
-read b
-sum=` expr $a + $b `
-echo "the sum is: $sum"
 
