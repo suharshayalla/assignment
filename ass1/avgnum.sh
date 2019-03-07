@@ -1,4 +1,6 @@
 #!/bin/bash
+N=$1
+num=$2
 echo " enter N "
 read N
 i=1 
