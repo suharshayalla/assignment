@@ -1,8 +1,6 @@
 #!/bin/bash
-echo " enter a "
-read a 
-echo " enter b "
-read b
+a=$1
+b=$2
 sum=`expr $a + $b`
 sub=`expr $a - $b`
 mul=`expr $a \* $b`
