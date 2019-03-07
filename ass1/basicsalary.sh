@@ -1,5 +1,5 @@
 #!/bin/bash
-read basic
+basic=$1
 a=`expr 50 \* $basic`
 dp=`expr $a / 100`
 b=`expr $basic + $dp`
