@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "enter x : (1,2,3)"
-read x 
+x=$1
 if [ $x -eq 1 ]
 then
 	echo " suha"
