@@ -1,6 +1,5 @@
 #!/bin/bash
-echo " enter filename "
-read filename 
+filename=$1
  if [ -f $filename ]
 then
          cat $filename 
